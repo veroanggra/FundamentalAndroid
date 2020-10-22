@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BarVolume</string>
+    <string name="txt_length">Length</string>
+    <string name="text_width">Width</string>
+    <string name="text_height">Height</string>
+    <string name="text_calculate">Calculate</string>
+    <string name="text_result">Result</string>
+    <string name="text_error">This field should have value !</string>
 </resources>
