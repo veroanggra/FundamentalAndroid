@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="pindah_activity">Pindah Activity</string>
+    <string name="move_activity">Move Activity</string>
+    <string name="pindah_dengan_data">Pindah Dengan Data</string>
+    <string name="penerima">Penerima</string>
+    <string name="pindah_dengan_objek">Pindah Dengan Objek</string>
+    <string name="panggilan">Panggilan</string>
+    <string name="kuis">Kuis</string>
+    <string name="result">Result</string>
+    <string name="instruction">Pilih angka yang kamu suka!</string>
+    <string name="_7">7</string>
+    <string name="_10">10</string>
+    <string name="_12">12</string>
+    <string name="_2">2</string>
+    <string name="choose">Choose</string>
+</resources>

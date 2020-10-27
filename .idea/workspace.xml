@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BarVolume/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BarVolume/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,9 +39,25 @@
       <option name="presentableId" value="Default" />
       <updated>1603281698068</updated>
     </task>
+    <task id="LOCAL-00001" summary="BarVolume">
+      <created>1603348799221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348799222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BarVolume" />
+    <option name="LAST_COMMIT_MESSAGE" value="BarVolume" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="161" y="114" key="CommitChangelistDialog2" timestamp="1603348799012">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1603348799012" />
     <state x="548" y="341" key="Github.ShareDialog" timestamp="1603281740105">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -52,5 +66,9 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="299" y="150" key="Github.UntrackedFilesDialog/0.23.1440.828@0.23.1440.828" timestamp="1603281754383" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1603348811207">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1603348811207" />
   </component>
 </project>
