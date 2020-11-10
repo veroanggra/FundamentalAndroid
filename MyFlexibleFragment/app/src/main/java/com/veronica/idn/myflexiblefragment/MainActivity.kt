@@ -15,7 +15,10 @@ class MainActivity : AppCompatActivity() {
 
         if (fragment !is HomeFragment){
             Log.d("MyFlexibleFragment", "Fragment Name : "+HomeFragment::class.java.simpleName)
-            mFragmentManager.beginTransaction().add(R.id.main_conatiner, mHomeFragment, HomeFragment::class.java.simpleName)
+            mFragmentManager.beginTransaction()
+                .add(R.id.main_conatiner,
+                    mHomeFragment,
+                    HomeFragment::class.java.simpleName)
                 .commit()
         }
     }

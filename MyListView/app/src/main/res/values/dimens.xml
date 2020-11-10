@@ -5,4 +5,5 @@
     <dimen name="_26dp">26dp</dimen>
     <dimen name="_18sp">18sp</dimen>
     <dimen name="_10dp">10dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
 </resources>

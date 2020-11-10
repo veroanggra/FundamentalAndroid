@@ -2,13 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/iv_photo"
         android:layout_width="@dimen/_100dp"
-        android:layout_height="@dimen/_150dp"
-        android:scaleType="fitXY" />
+        android:layout_height="@dimen/_100dp"
+        app:civ_border_width="@dimen/_2dp"
+        app:civ_border_color="@color/grey"
+         />
 
     <TextView
         android:id="@+id/tv_name"
