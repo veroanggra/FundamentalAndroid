@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60dp"
+        android:contentDescription="@string/image_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intro_illustration" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:text="@string/text_welcome"
+        android:textSize="@dimen/_30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_32dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_32dp"
+        android:text="@string/text_intro"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome" />
+
+
+    <EditText
+        android:id="@+id/et_name_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_32dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginEnd="@dimen/_32dp"
+        android:background="@drawable/et_background"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/text_type_name"
+        android:padding="@dimen/_20dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowRadius="2"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@color/text_color"
+        android:textSize="@dimen/_12sp"
+        android:drawablePadding="@dimen/_8dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_intro" />
+
+    <Button
+        android:id="@+id/btn_send_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8dp"
+        android:text="@string/text_send"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/et_name_intro"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_name_intro"
+        android:background="@drawable/btn_background"
+        app:layout_constraintTop_toBottomOf="@+id/et_name_intro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

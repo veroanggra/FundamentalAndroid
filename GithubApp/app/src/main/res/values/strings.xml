@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">GithubApp</string>
     <string name="image_view">Image View</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="text_intro">In this app you can find the top user of Github, to access the main page, you should filling up your name below !</string>
+    <string name="text_type_name">Type your name here</string>
+    <string name="text_send">Send</string>
+    <string name="hello">Hello,</string>
+    <string name="text_name">Name</string>
+    <string name="swift">Swift</string>
+    <string name="text_objective_c">Objective-C</string>
+    <string name="text_dart">Dart</string>
+    <string name="text_js">Java Script</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="text_java">Java</string>
 </resources>
