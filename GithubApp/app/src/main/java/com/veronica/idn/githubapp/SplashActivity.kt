@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.os.Handler
 import kotlinx.android.synthetic.main.activity_splash.*
 
-@Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
     private var handler: Handler? = null
     private val DELAY: Long = 3000
@@ -31,7 +30,7 @@ class SplashActivity : AppCompatActivity() {
                     e.printStackTrace()
                 }
                 progressBarStatus = dummy
-                pb_splash.progress = progressBarStatus
+                pb_splash?.progress = progressBarStatus
 
                 toActivity()
             }

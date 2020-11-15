@@ -19,6 +19,11 @@
     <string name="top_user">Top User</string>
     <string name="location">Location</string>
     <string name="company">Company</string>
+    <string name="text_username">Username</string>
+    <string name="_56">56</string>
+    <string name="text_repository">Repository</string>
+    <string name="text_follower">Follower</string>
+    <string name="text_following">Following</string>
 
 
     <string-array name="username">
