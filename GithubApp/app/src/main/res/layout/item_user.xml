@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:padding="@dimen/_16dp"
+        app:cardCornerRadius="@dimen/_16dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:id="@+id/cv_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_user"
+                android:layout_width="@dimen/_60dp"
+                android:layout_height="@dimen/_60dp"
+                android:layout_marginTop="@dimen/_4dp"
+                android:src="@color/colorBoldText" />
+
+            <TextView
+                android:id="@+id/tv_name_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_4dp"
+                android:layout_toEndOf="@id/iv_user"
+                android:text="@string/text_name"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:id="@+id/tv_location_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name_list"
+                android:layout_marginStart="@dimen/_16sp"
+                android:layout_marginTop="@dimen/_2dp"
+                android:layout_toEndOf="@id/iv_user"
+                android:drawablePadding="@dimen/_16dp"
+                android:text="@string/location"
+                app:drawableStartCompat="@drawable/location" />
+
+            <TextView
+                android:id="@+id/tv_company_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_location_list"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_2dp"
+                android:layout_toEndOf="@id/iv_user"
+                android:drawablePadding="@dimen/_8dp"
+                android:text="@string/company"
+                app:drawableStartCompat="@drawable/building" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
