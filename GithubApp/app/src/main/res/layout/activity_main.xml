@@ -196,6 +196,7 @@
             android:layout_marginStart="@dimen/_30dp"
             android:layout_marginTop="@dimen/_8dp"
             android:layout_marginEnd="@dimen/_30dp"
+            android:focusable="false"
             android:background="@drawable/back_edit_outline"
             android:drawableEnd="@drawable/ic_baseline_search"
             android:hint="@string/type_here"

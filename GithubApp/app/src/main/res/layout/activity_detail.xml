@@ -20,11 +20,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
+
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/detail_illustration"
-            android:foreground="@drawable/background_transparent"/>
+            android:foreground="@drawable/background_transparent" />
     </FrameLayout>
 
 
@@ -80,8 +81,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="16dp"
-        android:textColor="@android:color/black"
         android:text="@string/_56"
+        android:textColor="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_username" />
 
@@ -142,12 +143,13 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
+        android:drawablePadding="@dimen/_16dp"
         android:text="@string/location"
+        app:drawableStartCompat="@drawable/location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_follower"
-        app:drawableStartCompat="@drawable/location" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_follower" />
 
     <TextView
         android:id="@+id/tv_company_detail"
@@ -156,7 +158,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="TextView"
+        android:drawablePadding="@dimen/_8dp"
+        android:text="@string/company"
+        app:drawableStartCompat="@drawable/building"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_location_detail" />
@@ -168,7 +172,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="246 contributions in the last year "
+        android:text="@string/text_contributions_graph"
+        android:textColor="@color/colorBoldText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_company_detail" />
@@ -178,6 +183,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:contentDescription="@string/image_view"
         app:layout_constraintEnd_toEndOf="@+id/tv_contribution"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="@+id/tv_contribution"

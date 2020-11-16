@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var dataFollowing: Array<String>
     private lateinit var dataRepository: Array<String>
     private lateinit var dataPhoto: TypedArray
-    private lateinit var datauserName : Array<String>
+    private lateinit var datauserName: Array<String>
     private var users = arrayListOf<User>()
     private lateinit var adapter: UserAdapter
 
@@ -37,12 +37,12 @@ class MainActivity : AppCompatActivity() {
         lv_main.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val dataSend = User(
                 name = users[position].name,
+                username = users[position].username,
                 location = users[position].location,
                 company = users[position].company,
                 follower = users[position].follower,
                 following = users[position].following,
                 repository = users[position].repository,
-                username = users[position].username,
                 photo = users[position].photo
             )
             val intentToDetail = Intent(this, DetailActivity::class.java)
@@ -68,12 +68,12 @@ class MainActivity : AppCompatActivity() {
             val user = User(
                 dataPhoto.getResourceId(position, -1),
                 dataName[position],
+                datauserName[position],
                 dataLocation[position],
                 dataCompany[position],
                 dataFollower[position],
                 dataFollowing[position],
                 dataRepository[position],
-                datauserName[position]
             )
             users.add(user)
         }
