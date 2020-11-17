@@ -13,4 +13,14 @@
     Video playback: up to 13 hours\n
     Audio playback (via headset): up to 110 hours\n
     Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
+    <string name="text_lable_galery">6 photos</string>
+    <string name="text_price">$735</string>
+    <string name="text_stock">Stock hanya 5 buah</string>
+    <string name="text_spesifikasi">Spesifikasi</string>
+    <string name="text_display">Display</string>
+    <string name="size">Size</string>
+    <string name="text_battery">Battery</string>
+    <string name="dijual_oleh">Dijual oleh</string>
+    <string name="narenda_wicaksono">Narenda Wicaksono</string>
+    <string name="beli">Beli</string>
 </resources>
