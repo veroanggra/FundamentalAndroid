@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             intentToDetail.putExtra(DetailActivity.USER_DATA, dataSend)
             startActivity(intentToDetail)
         }
+
     }
 
     private fun prepareData() {
@@ -79,4 +80,5 @@ class MainActivity : AppCompatActivity() {
         }
         adapter.users = users
     }
+
 }

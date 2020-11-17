@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/java/com/veronica/idn/githubapp/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/java/com/veronica/idn/githubapp/DetailActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/java/com/veronica/idn/githubapp/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/java/com/veronica/idn/githubapp/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubApp/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubApp/app/src/main/res/values/themes.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605458990227</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add detail">
+      <created>1605541904511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605541904511</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,13 +114,14 @@
     <MESSAGE value="main" />
     <MESSAGE value="add list" />
     <MESSAGE value="add detail ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="add detail ui" />
+    <MESSAGE value="add detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add detail" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="161" y="114" key="CommitChangelistDialog2" timestamp="1605458989990">
+    <state x="161" y="114" key="CommitChangelistDialog2" timestamp="1605541904255">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1605458989990" />
+    <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1605541904255" />
     <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1603348799012" />
     <state x="548" y="341" key="Github.ShareDialog" timestamp="1603281740105">
       <screen x="0" y="23" width="1440" height="828" />
@@ -132,10 +131,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="299" y="150" key="Github.UntrackedFilesDialog/0.23.1440.828@0.23.1440.828" timestamp="1603281754383" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1605458997619">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1605541914298">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605458997619" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605541914298" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1603348811207" />
   </component>
 </project>

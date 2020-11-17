@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import de.hdodenhof.circleimageview.CircleImageView
+import java.util.*
 
 class UserAdapter internal constructor(private val context: Context) : BaseAdapter() {
     internal var users = arrayListOf<User>()
