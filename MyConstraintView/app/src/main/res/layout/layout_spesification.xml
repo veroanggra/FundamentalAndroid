@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_spesification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/text_specification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_display"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spesification" />
+
+    <TextView
+        android:id="@+id/tv_content_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/content_specs_display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toEndOf="@+id/tv_display"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spesification" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content_display" />
+
+    <TextView
+        android:id="@+id/tv_content_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_105dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/content_specs_size"
+        app:layout_constraintStart_toStartOf="@+id/tv_content_display"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content_display" />
+
+    <TextView
+        android:id="@+id/tv_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_battery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content_size" />
+
+    <TextView
+        android:id="@+id/tv_content_battery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/_105dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:text="@string/content_specs_battery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_content_size"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content_size" />
+</androidx.constraintlayout.widget.ConstraintLayout>
