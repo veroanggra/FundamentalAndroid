@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/_8dp"
+    android:layout_marginTop="@dimen/_4dp"
+    android:layout_marginEnd="@dimen/_8dp"
+    android:layout_marginBottom="@dimen/_4dp"
+    app:cardCornerRadius="@dimen/_4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200dp"
+        android:padding="@dimen/_8dp">
+
+        <ImageView
+            android:id="@+id/iv_profile_card"
+            android:layout_width="@dimen/_150dp"
+            android:layout_height="@dimen/_220dp"
+            android:layout_marginBottom="@dimen/_4dp"
+            android:contentDescription="@string/imageview"
+            android:scaleType="centerCrop"
+            tools:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_name_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_profile_card"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            tools:text="@string/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_desc_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_card"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_profile_card"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="@string/text_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_desc_card"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_profile_card"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_4dp"
+                android:layout_weight="1"
+                android:text="@string/text_favorite"
+                android:textSize="@dimen/_10sp" />
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4dp"
+                android:layout_weight="1"
+                android:text="@string/text_share"
+                android:textSize="@dimen/_10sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
