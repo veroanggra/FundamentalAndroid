@@ -12,6 +12,13 @@ import kotlinx.android.synthetic.main.item_hero.view.*
 
 class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
     RecyclerView.Adapter<ListHeroAdapter.ListViewHolder>() {
+    private var onItemClickCallBack: OnItemClickCallback? = null
+
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallBack = onItemClickCallBack
+    }
+
+
     inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(hero: Hero) {
             with(itemView) {
@@ -20,6 +27,7 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
                     .into(iv_profile)
                 tv_item_name.text = hero.name
                 tv_item_desc.text = hero.description
+                itemView.setOnClickListener { onItemClickCallBack?.onItemClicked(hero) }
             }
         }
 
@@ -39,4 +47,9 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
     }
 
     override fun getItemCount(): Int = listHero.size
+
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Hero)
+
+    }
 }

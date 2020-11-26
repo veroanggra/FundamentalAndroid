@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.GridLayout
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.veronica.idn.myrecyclerview.adapter.CardViewAdapter
@@ -50,16 +51,32 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = title
     }
 
+    private fun showSelectedHero(hero: Hero) {
+        Toast.makeText(this, "Kamu memilih ${hero.name}", Toast.LENGTH_SHORT).show()
+    }
+
     private fun showRecyclerList() {
         rv_main.layoutManager = LinearLayoutManager(this)
         val listHeroAdapter = ListHeroAdapter(list)
         rv_main.adapter = listHeroAdapter
+        listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Hero) {
+                showSelectedHero(data)
+            }
+
+        })
     }
 
     private fun showRecyclerGrid() {
         rv_main.layoutManager = GridLayoutManager(this, 2)
         val gridHeroAdapter = GridAdapter(list)
         rv_main.adapter = gridHeroAdapter
+        gridHeroAdapter.setOnItemClickCallback(object : GridAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Hero) {
+                showSelectedHero(data)
+            }
+
+        })
     }
 
     private fun showRecyclerCard() {
