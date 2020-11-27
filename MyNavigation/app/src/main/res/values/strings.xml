@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_home">Halo Home Frament</string>
+    <string name="to_category">To Category</string>
+    <string name="to_profile">To  Profile</string>
+    <string name="fragment_category">Fragment Category</string>
+    <string name="profile">Profile</string>
+    <string name="lifestyle_category">Lifestyle Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="description">Description</string>
+    <string name="home">Home</string>
+</resources>
