@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="" />
+    <list default="true" id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/myactionbar/MenuActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/myactionbar/MenuFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_announcement_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_search_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FundamentalAndroid.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_26]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jBe1iPIyP3bm6CJ1MNIMOnV3ji" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1l89PmTR9bVGj89y9nRFMxbF1to" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-03T04:59:56.936Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -28,161 +60,106 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="android.template.1327281755">
+      <recent name="com.veronica.idn.myactionbar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MyActionBar.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0290883b-bf68-4287-8560-d70da1d4ffed" name="Default Changelist" comment="" />
-      <created>1603281698068</created>
+      <changelist id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="" />
+      <created>1606967830237</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603281698068</updated>
+      <updated>1606967830237</updated>
     </task>
-    <task id="LOCAL-00001" summary="BarVolume">
-      <created>1603348799221</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603348799222</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Flexible Fragment">
-      <created>1604466034322</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604466034322</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Listview">
-      <created>1604480719550</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604480719550</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Testing">
-      <created>1604989762583</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604989762583</updated>
-    </task>
-    <task id="LOCAL-00005" summary="splash">
-      <created>1605200097384</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605200097384</updated>
-    </task>
-    <task id="LOCAL-00006" summary="main">
-      <created>1605369219735</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605369219735</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add list">
-      <created>1605445587367</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605445587368</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add detail ui">
-      <created>1605458990226</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1605458990227</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add detail">
-      <created>1605541904511</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1605541904511</updated>
-    </task>
-    <task id="LOCAL-00010" summary="view and views">
-      <created>1605628536215</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605628536215</updated>
-    </task>
-    <task id="LOCAL-00011" summary="view and views ref">
-      <created>1605638052921</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1605638052921</updated>
-    </task>
-    <task id="LOCAL-00012" summary="constraint">
-      <created>1606062942156</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1606062942156</updated>
-    </task>
-    <task id="LOCAL-00013" summary="customview">
-      <created>1606146581460</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1606146581460</updated>
-    </task>
-    <task id="LOCAL-00014" summary="recyclerview">
-      <created>1606359537228</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606359537228</updated>
-    </task>
-    <task id="LOCAL-00015" summary="recyclerview clicked item">
-      <created>1606361103842</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1606361103842</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="BarVolume" />
-    <MESSAGE value="Flexible Fragment" />
-    <MESSAGE value="Listview" />
-    <MESSAGE value="Testing" />
-    <MESSAGE value="splash" />
-    <MESSAGE value="main" />
-    <MESSAGE value="add list" />
-    <MESSAGE value="add detail ui" />
-    <MESSAGE value="add detail" />
-    <MESSAGE value="view and views" />
-    <MESSAGE value="view and views ref" />
-    <MESSAGE value="constraint" />
-    <MESSAGE value="customview" />
-    <MESSAGE value="recyclerview" />
-    <MESSAGE value="recyclerview clicked item" />
-    <option name="LAST_COMMIT_MESSAGE" value="recyclerview clicked item" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="161" y="114" key="CommitChangelistDialog2" timestamp="1606361103678">
+    <state x="816" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1606986593771">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1606361103678" />
-    <state x="161" y="114" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1603348799012" />
-    <state x="548" y="341" key="Github.ShareDialog" timestamp="1603281740105">
+    <state x="816" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1606986593771" />
+    <state x="616" y="199" key="AndroidCreateResourceFileDialog" timestamp="1606969159182">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="548" y="341" key="Github.ShareDialog/0.23.1440.828@0.23.1440.828" timestamp="1603281740105" />
-    <state x="299" y="150" key="Github.UntrackedFilesDialog" timestamp="1603281754383">
+    <state x="616" y="199" key="AndroidCreateResourceFileDialog/0.23.1440.828@0.23.1440.828" timestamp="1606969159182" />
+    <state x="875" y="217" key="AndroidCreateXmlResourceDialog" timestamp="1606972337494">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="299" y="150" key="Github.UntrackedFilesDialog/0.23.1440.828@0.23.1440.828" timestamp="1603281754383" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1606361109767">
+    <state x="875" y="217" key="AndroidCreateXmlResourceDialog/0.23.1440.828@0.23.1440.828" timestamp="1606972337494" />
+    <state width="500" height="487" key="SwitcherDM" timestamp="1606971211971">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1606361109767" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1603348811207" />
+    <state width="500" height="487" key="SwitcherDM/0.23.1440.828@0.23.1440.828" timestamp="1606971211971" />
   </component>
 </project>
