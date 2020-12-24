@@ -10,109 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/androidTest/java/com/veronica/idn/mynavigationdrawer/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/CartFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/HotelFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/MapFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/SendFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/ShareFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/SubwayFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/java/com/veronica/idn/mynavigationdrawer/ToolsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_local_hotel_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_map_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_send_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_share_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_baseline_subway_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_cart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_hotel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_map.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_subway.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/layout/fragment_tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/app/src/test/java/com/veronica/idn/mynavigationdrawer/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyNavigationDrawer/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/veronica/idn/myactionbar/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/myactionbar/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/myactionbar/MenuActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/veronica/idn/myactionbar/MenuFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_announcement_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_search_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/options_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/veronica/idn/myactionbar/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,12 +137,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606987765239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nav-bottom">
+      <created>1608784435570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608784435570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add actionbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add actionbar" />
+    <MESSAGE value="nav-bottom" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav-bottom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="816" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1606986593771">
@@ -259,17 +165,19 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="875" y="217" key="AndroidCreateXmlResourceDialog/0.23.1440.828@0.23.1440.828" timestamp="1606972337494" />
-    <state x="328" y="114" key="CommitChangelistDialog2" timestamp="1606987764541">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="313" y="119" key="CommitChangelistDialog2" timestamp="1608784435110">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="328" y="114" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1606987764541" />
+    <state x="313" y="119" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1608784435110" />
     <state width="500" height="487" key="SwitcherDM" timestamp="1606971211971">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="500" height="487" key="SwitcherDM/0.23.1440.828@0.23.1440.828" timestamp="1606971211971" />
-    <state x="640" y="177" key="Vcs.Push.Dialog.v2" timestamp="1606987772381">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1608784441500">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="640" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1606987772381" />
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1608784441500" />
   </component>
 </project>
