@@ -29,7 +29,7 @@ class GridAdapter(private val listHero: ArrayList<Hero>) :
                 Glide.with(itemView.context).load(hero.photo)
                     .apply(RequestOptions().override(350, 550))
                     .into(iv_profile_grid)
-            }
+            }     
             itemView.setOnClickListener { onItemClickCallback?.onItemClicked(hero) }
         }
 
