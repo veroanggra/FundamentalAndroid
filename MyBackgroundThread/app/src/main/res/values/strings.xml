@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyBackgroundThread</string>
+    <string name="text_start">Start</string>
+    <string name="text_status">Status</string>
+    <string name="hidden_text">Now you see me!</string>
+    <string name="task_completed">Task Completed</string>
+    <string name="compressing">Compressing %d %%</string>
+</resources>
