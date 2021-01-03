@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609471518483</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="service">
+      <created>1609602315179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609602315179</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,7 +189,8 @@
     <MESSAGE value="localization" />
     <MESSAGE value="testing-cub" />
     <MESSAGE value="background- couroutine refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="background- couroutine refactor" />
+    <MESSAGE value="service" />
+    <option name="LAST_COMMIT_MESSAGE" value="service" />
   </component>
   <component name="WindowStateProjectService">
     <state x="816" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1606986593771">
@@ -197,19 +205,19 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="875" y="217" key="AndroidCreateXmlResourceDialog/0.23.1440.828@0.23.1440.828" timestamp="1606972337494" />
-    <state x="313" y="119" key="CommitChangelistDialog2" timestamp="1609471518225">
+    <state x="313" y="119" key="CommitChangelistDialog2" timestamp="1609602314958">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="328" y="114" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1606987764541" />
-    <state x="313" y="119" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1609471518225" />
+    <state x="313" y="119" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1609602314958" />
     <state width="500" height="487" key="SwitcherDM" timestamp="1606971211971">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state width="500" height="487" key="SwitcherDM/0.23.1440.828@0.23.1440.828" timestamp="1606971211971" />
-    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1609471534275">
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2" timestamp="1609602321307">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="640" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1606987772381" />
-    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1609471534275" />
+    <state x="640" y="186" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1609602321307" />
   </component>
 </project>
