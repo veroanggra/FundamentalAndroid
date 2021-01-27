@@ -1,4 +1,4 @@
-package com.veronica.idn.myalarmmanager
+package com.veronica.idn.myalarmmanager.utils
 
 import android.app.Dialog
 import android.app.TimePickerDialog
@@ -38,7 +38,6 @@ class TimePickerFragment : DialogFragment(), TimePickerDialog.OnTimeSetListener 
 
     interface DialogTimeListener {
         fun onDialogTimeSet(tag: String?, hourOfDay: Int, minute: Int)
-
     }
 
 }

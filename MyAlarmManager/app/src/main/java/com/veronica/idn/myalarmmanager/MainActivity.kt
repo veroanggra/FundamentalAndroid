@@ -4,7 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.veronica.idn.myalarmmanager.databinding.ActivityMainBinding
-import java.sql.Time
+import com.veronica.idn.myalarmmanager.utils.DatePickerFragment
+import com.veronica.idn.myalarmmanager.utils.TimePickerFragment
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -23,12 +24,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+
         binding?.btnOnceDate?.setOnClickListener(this)
         binding?.btnOnceTime?.setOnClickListener(this)
         binding?.btnOneTimeAlarm?.setOnClickListener(this)
+
+        binding?.btnReapeating?.setOnClickListener(this)
+        binding?.btnSetRepeatingAlarm?.setOnClickListener(this)
+        binding?.btnCancelRepeatingAlarm?.setOnClickListener(this)
+
         alarmReceiver = AlarmReceiver()
-
-
     }
 
     override fun onClick(p0: View) {
@@ -54,15 +59,28 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
                     onceTime,
                     onceMessage
                 )
-
             }
+            R.id.btn_reapeating -> {
+                val timePickerFragmentRepeat = TimePickerFragment()
+                timePickerFragmentRepeat.show(supportFragmentManager, TIME_PICKER_REPEAT_TAG)
+            }
+            R.id.btn_set_repeating_alarm -> {
+                val repeatTime = binding?.tvRepeatingTime?.text.toString()
+                val repeatMessage = binding?.etRepeatingMessage?.text.toString()
+                alarmReceiver.setRepeatingAlarm(
+                    this,
+                    AlarmReceiver.TYPE_REPEATING,
+                    repeatTime,
+                    repeatMessage
+                )
+            }
+            R.id.btn_cancel_repeating_alarm -> alarmReceiver.cancelAlarm(
+                this,
+                AlarmReceiver.TYPE_REPEATING
+            )
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        binding = null
-    }
 
     override fun onDialogDateSet(tag: String?, year: Int, month: Int, dayOfMonth: Int) {
         val calender = Calendar.getInstance()
@@ -70,6 +88,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
         val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
         binding?.tvOnceDate?.text = dateFormat.format(calender.time)
     }
+
 
     override fun onDialogTimeSet(tag: String?, hourOfDay: Int, minute: Int) {
         val calender = Calendar.getInstance()
@@ -79,10 +98,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,
         val dateFormat = SimpleDateFormat("HH:mm", Locale.getDefault())
         when (tag) {
             TIME_PICKER_ONCE_TAG -> binding?.tvOnceTime?.text = dateFormat.format(calender.time)
-//            TIME_PICKER_REPEAT_TAG -> binding?.tv
+            TIME_PICKER_REPEAT_TAG -> binding?.tvRepeatingTime?.text = dateFormat.format(calender.time)
             else -> {
-
             }
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
     }
 }

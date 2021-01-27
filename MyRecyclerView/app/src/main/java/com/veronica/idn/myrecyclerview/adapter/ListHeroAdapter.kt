@@ -30,8 +30,6 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
                 itemView.setOnClickListener { onItemClickCallBack?.onItemClicked(hero) }
             }
         }
-
-
     }
 
     override fun onCreateViewHolder(
