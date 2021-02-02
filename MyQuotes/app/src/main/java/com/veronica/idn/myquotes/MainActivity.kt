@@ -1,5 +1,6 @@
 package com.veronica.idn.myquotes
 
+import android.content.Intent
 import android.os.Binder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         getRandomQuotes()
+        binding.btnQuotes.setOnClickListener {
+            startActivity(Intent(this, ListQuotesActivity::class.java))
+        }
     }
 
     private fun getRandomQuotes() {
