@@ -10,7 +10,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="" />
+    <list default="true" id="65d1aea5-11ba-45ba-9550-905b2eeb5782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyViewModel/app/src/main/res/layout/weather_item.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
