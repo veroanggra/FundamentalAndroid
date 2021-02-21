@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         adapter.notifyDataSetChanged()
         binding.rvMain.layoutManager = LinearLayoutManager(this)
         binding.rvMain.adapter = adapter
-        binding.t
 
     }
 
