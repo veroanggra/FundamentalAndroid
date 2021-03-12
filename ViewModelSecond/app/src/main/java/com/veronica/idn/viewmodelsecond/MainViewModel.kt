@@ -16,7 +16,7 @@ class MainViewModel : ViewModel() {
 
     fun setWeather(cities: String) {
         val listItems = ArrayList<WeatherItems>()
-        val apiKey = " "
+        val apiKey = "0e336d04ff15c62726b4224d2457f149"
         val url =
             "https://api.openweathermap.org/data/2.5/group?id=${cities}&units=metric&appid=${apiKey}"
         val client = AsyncHttpClient()
