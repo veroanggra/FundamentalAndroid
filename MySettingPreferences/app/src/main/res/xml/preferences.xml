@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:iconSpaceReserved="false">
+    <EditTextPreference
+        android:iconSpaceReserved="false"
+        android:key="@string/key_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:summary="@string/nothing"
+        android:title="@string/name" />
+    <EditTextPreference
+        android:iconSpaceReserved="false"
+        android:inputType="textEmailAddress"
+        android:key="@string/key_email"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/email" />
+    <EditTextPreference
+        android:iconSpaceReserved="false"
+        android:inputType="number"
+        android:key="@string/key_age"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/age" />
+    <EditTextPreference
+        android:iconSpaceReserved="false"
+        android:key="@string/key_phone"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/nothing"
+        android:title="@string/phone_number" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:iconSpaceReserved="false"
+        android:key="@string/key_love"
+        android:title="@string/is_love" />
+
+</PreferenceScreen>
