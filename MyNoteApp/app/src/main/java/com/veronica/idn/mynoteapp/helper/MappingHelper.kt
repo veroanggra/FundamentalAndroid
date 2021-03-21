@@ -1,7 +1,8 @@
-package com.veronica.idn.mynoteapp
+package com.veronica.idn.mynoteapp.helper
 
 import android.database.Cursor
 import com.veronica.idn.mynoteapp.db.DatabaseContract
+import com.veronica.idn.mynoteapp.entity.Note
 
 object MappingHelper {
     fun mapCursorToArrayList(notesCursor: Cursor?): ArrayList<Note> {

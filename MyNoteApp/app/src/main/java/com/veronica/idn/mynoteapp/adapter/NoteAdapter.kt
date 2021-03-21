@@ -1,4 +1,4 @@
-package com.veronica.idn.mynoteapp
+package com.veronica.idn.mynoteapp.adapter
 
 import android.app.Activity
 import android.content.Intent
@@ -6,7 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.veronica.idn.mynoteapp.AddNoteActivity
+import com.veronica.idn.mynoteapp.CustomOnItemClickListener
+import com.veronica.idn.mynoteapp.R
 import com.veronica.idn.mynoteapp.databinding.ItemNoteBinding
+import com.veronica.idn.mynoteapp.entity.Note
 
 class NoteAdapter(private val activity: Activity) :
     RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {

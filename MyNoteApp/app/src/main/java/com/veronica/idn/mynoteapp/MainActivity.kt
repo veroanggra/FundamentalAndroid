@@ -3,12 +3,14 @@ package com.veronica.idn.mynoteapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import com.veronica.idn.mynoteapp.adapter.NoteAdapter
 import com.veronica.idn.mynoteapp.databinding.ActivityMainBinding
 import com.veronica.idn.mynoteapp.db.NoteHelper
+import com.veronica.idn.mynoteapp.entity.Note
+import com.veronica.idn.mynoteapp.helper.MappingHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async

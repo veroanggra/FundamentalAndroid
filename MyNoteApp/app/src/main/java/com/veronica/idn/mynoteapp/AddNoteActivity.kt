@@ -13,6 +13,7 @@ import com.veronica.idn.mynoteapp.databinding.ActivityAddNoteBinding
 import com.veronica.idn.mynoteapp.db.DatabaseContract
 import com.veronica.idn.mynoteapp.db.DatabaseContract.NoteColumns.Companion.DATE
 import com.veronica.idn.mynoteapp.db.NoteHelper
+import com.veronica.idn.mynoteapp.entity.Note
 import java.text.SimpleDateFormat
 import java.util.*
 

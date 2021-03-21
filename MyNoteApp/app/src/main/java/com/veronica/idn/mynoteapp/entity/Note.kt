@@ -1,4 +1,4 @@
-package com.veronica.idn.mynoteapp
+package com.veronica.idn.mynoteapp.entity
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
