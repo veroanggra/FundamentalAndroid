@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyPreloadData</string>
+    <string name="loading">Loading!</string>
+    <string name="nim">NIM</string>
+    <string name="name">NAMA</string>
+    <string name="iamge_view">Iamge View</string>
+</resources>
