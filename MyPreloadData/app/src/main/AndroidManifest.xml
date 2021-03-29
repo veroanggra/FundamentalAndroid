@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPreloadData">
-        <activity android:name=".MahasiswaActivity"></activity>
+        <service
+            android:name=".DataManagerService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".MahasiswaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
